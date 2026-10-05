@@ -1,0 +1,15 @@
+rules_version = '2';
+
+// ---------------------------------------------------------------------------
+// TEMPORARY, LOCAL DEVELOPMENT ONLY.
+// Deployed by `scripts/seed-with-temp-rules.sh` so the seed script can write
+// documents, then immediately replaced by the strict `firestore.rules`.
+// This file must never be the deployed state of a real project.
+// ---------------------------------------------------------------------------
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if request.time < timestamp.date(2027, 1, 1);
+    }
+  }
+}

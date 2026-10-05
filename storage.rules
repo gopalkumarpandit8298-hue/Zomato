@@ -1,0 +1,27 @@
+rules_version = '2';
+
+// Public read: restaurant photos are shown to anonymous visitors.
+// Public write: TEMPORARY, so `npm run seed` can upload the images.
+// ---------------------------------------------------------------------------
+// TODO(PROD): once the catalogue is seeded, flip `allow write` to `if false`
+// and redeploy with `npm run deploy:rules`.
+// ---------------------------------------------------------------------------
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /restaurants/{allPaths=**} {
+      allow read: if true;
+      allow write: if request.time < timestamp.date(2027, 1, 1);
+      allow delete: if false;
+    }
+
+    match /categories/{allPaths=**} {
+      allow read: if true;
+      allow write: if request.time < timestamp.date(2027, 1, 1);
+      allow delete: if false;
+    }
+
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

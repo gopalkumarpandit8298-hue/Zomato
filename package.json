@@ -1,0 +1,52 @@
+{
+  "name": "zomato-clone",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "lint": "tsc -b --noEmit",
+    "seed": "tsx scripts/seed.ts",
+    "assets": "tsx scripts/fetch-assets.ts",
+    "verify:security": "tsx scripts/verify-security.ts",
+    "rules:strict": "firebase deploy --only firestore:rules",
+    "rules:temp": "firebase deploy --only firestore:rules --config firebase.seed.json",
+    "deploy:indexes": "firebase deploy --only firestore:indexes",
+    "test:e2e": "playwright-cli open --headed --browser=msedge https://zomato-3e2f4.web.app && playwright-cli resize 1440 900 && playwright-cli --raw run-code --filename=tests/smoke-test.js && playwright-cli --raw run-code --filename=tests/location-test.js && playwright-cli --raw run-code --filename=tests/order-flow-test.js && playwright-cli close",
+    "test:e2e:admin": "node scripts/run-admin-test.mjs",
+    "deploy": "npm run build && npm run rules:strict && firebase deploy --only hosting",
+    "deploy:hosting": "npm run build && firebase deploy --only hosting",
+    "deploy:storage": "firebase deploy --only storage"
+  },
+  "dependencies": {
+    "firebase": "^12.19.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@playwright/cli": "^0.1.22",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "firebase-tools": "^14.0.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.20.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "@firebase/util@1.15.3": true,
+    "protobufjs@7.6.6": true,
+    "re2@1.27.0": true
+  }
+}

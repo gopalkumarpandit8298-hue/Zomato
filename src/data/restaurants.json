@@ -1,0 +1,284 @@
+{
+  "restaurants": [
+    {
+      "id": "tandoori-nights",
+      "name": "Tandoori Nights",
+      "cuisines": [
+        "North Indian",
+        "BBQ"
+      ],
+      "rating": 4.6,
+      "ratingCount": 2412,
+      "deliveryMinutes": 32,
+      "costForTwo": 400,
+      "area": "Banjara Hills",
+      "city": "Hyderabad",
+      "pureVeg": true,
+      "discount": "40% off",
+      "featured": true,
+      "imagePath": "restaurants/tandoori-nights.jpg",
+      "fallbackImageUrl": "/img/restaurants/tandoori-nights.jpg",
+      "state": "Telangana"
+    },
+    {
+      "id": "biryani-blues",
+      "name": "Biryani Blues",
+      "cuisines": [
+        "Biryani",
+        "Hyderabadi"
+      ],
+      "rating": 4.5,
+      "ratingCount": 1876,
+      "deliveryMinutes": 38,
+      "costForTwo": 350,
+      "area": "Gachibowli",
+      "city": "Hyderabad",
+      "pureVeg": false,
+      "discount": "Flat ₹100 off",
+      "featured": true,
+      "imagePath": "restaurants/biryani-blues.jpg",
+      "fallbackImageUrl": "/img/restaurants/biryani-blues.jpg",
+      "state": "Telangana"
+    },
+    {
+      "id": "butter-chicken-bazaar",
+      "name": "Butter Chicken Bazaar",
+      "cuisines": [
+        "North Indian",
+        "Mughlai"
+      ],
+      "rating": 4.6,
+      "ratingCount": 2010,
+      "deliveryMinutes": 35,
+      "costForTwo": 600,
+      "area": "Jubilee Hills",
+      "city": "Hyderabad",
+      "pureVeg": false,
+      "discount": "30% off",
+      "featured": true,
+      "imagePath": "restaurants/butter-chicken-bazaar.jpg",
+      "fallbackImageUrl": "/img/restaurants/butter-chicken-bazaar.jpg",
+      "state": "Telangana"
+    },
+    {
+      "id": "pizza-punjab",
+      "name": "Pizza Punjab",
+      "cuisines": [
+        "Pizza",
+        "Italian"
+      ],
+      "rating": 4.4,
+      "ratingCount": 982,
+      "deliveryMinutes": 25,
+      "costForTwo": 500,
+      "area": "Koramangala",
+      "city": "Bengaluru",
+      "pureVeg": false,
+      "discount": "25% off",
+      "featured": false,
+      "imagePath": "restaurants/pizza-punjab.jpg",
+      "fallbackImageUrl": "/img/restaurants/pizza-punjab.jpg",
+      "state": "Karnataka"
+    },
+    {
+      "id": "burger-point",
+      "name": "Burger Point",
+      "cuisines": [
+        "Burger",
+        "American"
+      ],
+      "rating": 4.3,
+      "ratingCount": 1540,
+      "deliveryMinutes": 22,
+      "costForTwo": 300,
+      "area": "Indiranagar",
+      "city": "Bengaluru",
+      "pureVeg": false,
+      "discount": "20% off",
+      "featured": false,
+      "imagePath": "restaurants/burger-point.jpg",
+      "fallbackImageUrl": "/img/restaurants/burger-point.jpg",
+      "state": "Karnataka"
+    },
+    {
+      "id": "wok-this-way",
+      "name": "Wok This Way",
+      "cuisines": [
+        "Chinese",
+        "Thai"
+      ],
+      "rating": 4.5,
+      "ratingCount": 765,
+      "deliveryMinutes": 29,
+      "costForTwo": 450,
+      "area": "Koramangala",
+      "city": "Bengaluru",
+      "pureVeg": false,
+      "discount": null,
+      "featured": false,
+      "imagePath": "restaurants/wok-this-way.jpg",
+      "fallbackImageUrl": "/img/restaurants/wok-this-way.jpg",
+      "state": "Karnataka"
+    },
+    {
+      "id": "sweet-tooth",
+      "name": "Sweet Tooth",
+      "cuisines": [
+        "Desserts",
+        "Bakery"
+      ],
+      "rating": 4.7,
+      "ratingCount": 3210,
+      "deliveryMinutes": 20,
+      "costForTwo": 250,
+      "area": "Madhapur",
+      "city": "Hyderabad",
+      "pureVeg": true,
+      "discount": "Buy 1 Get 1",
+      "featured": true,
+      "imagePath": "restaurants/sweet-tooth.jpg",
+      "fallbackImageUrl": "/img/restaurants/sweet-tooth.jpg",
+      "state": "Telangana"
+    },
+    {
+      "id": "green-bowl",
+      "name": "Green Bowl",
+      "cuisines": [
+        "Healthy",
+        "Salads"
+      ],
+      "rating": 4.4,
+      "ratingCount": 412,
+      "deliveryMinutes": 18,
+      "costForTwo": 350,
+      "area": "HITEC City",
+      "city": "Hyderabad",
+      "pureVeg": true,
+      "discount": null,
+      "featured": false,
+      "imagePath": "restaurants/green-bowl.jpg",
+      "fallbackImageUrl": "/img/restaurants/green-bowl.jpg",
+      "state": "Telangana"
+    },
+    {
+      "id": "momo-magic",
+      "name": "Momo Magic",
+      "cuisines": [
+        "Momos",
+        "Chinese"
+      ],
+      "rating": 4.2,
+      "ratingCount": 1105,
+      "deliveryMinutes": 24,
+      "costForTwo": 200,
+      "area": "Dwaraka",
+      "city": "Hyderabad",
+      "pureVeg": false,
+      "discount": "15% off",
+      "featured": false,
+      "imagePath": "restaurants/momo-magic.jpg",
+      "fallbackImageUrl": "/img/restaurants/momo-magic.jpg",
+      "state": "Telangana"
+    },
+    {
+      "id": "rolls-republic",
+      "name": "Rolls Republic",
+      "cuisines": [
+        "Rolls",
+        "Snacks"
+      ],
+      "rating": 4.1,
+      "ratingCount": 640,
+      "deliveryMinutes": 20,
+      "costForTwo": 180,
+      "area": "Ameerpet",
+      "city": "Hyderabad",
+      "pureVeg": false,
+      "discount": null,
+      "featured": false,
+      "imagePath": "restaurants/rolls-republic.jpg",
+      "fallbackImageUrl": "/img/restaurants/rolls-republic.jpg",
+      "state": "Telangana"
+    },
+    {
+      "id": "chai-and-co",
+      "name": "Chai & Co",
+      "cuisines": [
+        "Beverages",
+        "Cafe"
+      ],
+      "rating": 4.3,
+      "ratingCount": 890,
+      "deliveryMinutes": 15,
+      "costForTwo": 150,
+      "area": "Banjara Hills",
+      "city": "Hyderabad",
+      "pureVeg": true,
+      "discount": "10% off",
+      "featured": false,
+      "imagePath": "restaurants/chai-and-co.jpg",
+      "fallbackImageUrl": "/img/restaurants/chai-and-co.jpg",
+      "state": "Telangana"
+    },
+    {
+      "id": "thali-express",
+      "name": "Thali Express",
+      "cuisines": [
+        "South Indian",
+        "Thali"
+      ],
+      "rating": 4.2,
+      "ratingCount": 1340,
+      "deliveryMinutes": 26,
+      "costForTwo": 250,
+      "area": "Secunderabad",
+      "city": "Hyderabad",
+      "pureVeg": true,
+      "discount": "Flat ₹50 off",
+      "featured": false,
+      "imagePath": "restaurants/thali-express.jpg",
+      "fallbackImageUrl": "/img/restaurants/thali-express.jpg",
+      "state": "Telangana"
+    },
+    {
+      "id": "pasta-amore",
+      "name": "Pasta Amore",
+      "cuisines": [
+        "Italian",
+        "Pasta"
+      ],
+      "rating": 4.5,
+      "ratingCount": 588,
+      "deliveryMinutes": 28,
+      "costForTwo": 550,
+      "area": "Banjara Hills",
+      "city": "Hyderabad",
+      "pureVeg": false,
+      "discount": "20% off",
+      "featured": false,
+      "imagePath": "restaurants/pasta-amore.jpg",
+      "fallbackImageUrl": "/img/restaurants/pasta-amore.jpg",
+      "state": "Telangana"
+    },
+    {
+      "id": "samosa-street",
+      "name": "Samosa Street",
+      "cuisines": [
+        "Snacks",
+        "Street Food"
+      ],
+      "rating": 4,
+      "ratingCount": 320,
+      "deliveryMinutes": 22,
+      "costForTwo": 120,
+      "area": "Charminar",
+      "city": "Hyderabad",
+      "pureVeg": true,
+      "discount": null,
+      "featured": false,
+      "imagePath": "restaurants/samosa-street.jpg",
+      "fallbackImageUrl": "/img/restaurants/samosa-street.jpg",
+      "state": "Telangana"
+    }
+  ]
+}

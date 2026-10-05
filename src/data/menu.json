@@ -1,0 +1,114 @@
+{
+  "tandoori-nights": [
+    { "id": "tn-1", "name": "Paneer Tikka", "description": "Charred cottage cheese, hung curd and kasuri methi", "price": 260, "veg": true, "spicy": true, "popular": true },
+    { "id": "tn-2", "name": "Tandoori Chicken (Half)", "description": "Overnight marinade, clay oven, mint chutney", "price": 320, "veg": false, "spicy": true, "popular": true },
+    { "id": "tn-3", "name": "Dal Makhani", "description": "Slow-cooked black lentils with cream and butter", "price": 220, "veg": true, "spicy": false, "popular": false },
+    { "id": "tn-4", "name": "Butter Chicken", "description": "Tomato-cashew gravy, fenugreek, white butter", "price": 340, "veg": false, "spicy": true, "popular": true },
+    { "id": "tn-5", "name": "Garlic Naan", "description": "Tandoor-baked, brushed with ghee", "price": 70, "veg": true, "spicy": false, "popular": false },
+    { "id": "tn-6", "name": "Gulab Jamun (2 pc)", "description": "Warm khoya dumplings in cardamom syrup", "price": 120, "veg": true, "spicy": false, "popular": false }
+  ],
+  "biryani-blues": [
+    { "id": "bb-1", "name": "Hyderabadi Chicken Dum Biryani", "description": "Sealed-pot dum, long grain basmati, raita", "price": 349, "veg": false, "spicy": true, "popular": true },
+    { "id": "bb-2", "name": "Veg Dum Biryani", "description": "Seasonal vegetables, mint, fried onion", "price": 279, "veg": true, "spicy": true, "popular": true },
+    { "id": "bb-3", "name": "Mutton Kacchi Biryani", "description": "Raw marinated mutton layered and slow cooked", "price": 449, "veg": false, "spicy": true, "popular": true },
+    { "id": "bb-4", "name": "Chicken 65", "description": "Crisp fried, curry leaf, red chilli", "price": 220, "veg": false, "spicy": true, "popular": false },
+    { "id": "bb-5", "name": "Mirchi Ka Salan", "description": "Long green chilli, sesame, tamarind", "price": 160, "veg": true, "spicy": true, "popular": false },
+    { "id": "bb-6", "name": "Masala Raita", "description": "Whisked curd, onion, roasted cumin", "price": 90, "veg": true, "spicy": false, "popular": false }
+  ],
+  "butter-chicken-bazaar": [
+    { "id": "bc-1", "name": "Butter Chicken", "description": "The house classic, makhani gravy, butter cube", "price": 390, "veg": false, "spicy": true, "popular": true },
+    { "id": "bc-2", "name": "Kadai Mushroom", "description": "Button mushroom, kadai masala, capsicum", "price": 310, "veg": true, "spicy": true, "popular": false },
+    { "id": "bc-3", "name": "Chicken Malai Tikka", "description": "Cream cheese and cardamom marinade", "price": 360, "veg": false, "spicy": false, "popular": true },
+    { "id": "bc-4", "name": "Paneer Awargi", "description": "Cheese-stuffed paneer in a smoky gravy", "price": 340, "veg": true, "spicy": true, "popular": false },
+    { "id": "bc-5", "name": "Tandoori Roti (2 pc)", "description": "Whole wheat, clay oven", "price": 60, "veg": true, "spicy": false, "popular": false },
+    { "id": "bc-6", "name": "Sizzling Brownie", "description": "Chocolate brownie, vanilla scoop", "price": 220, "veg": true, "spicy": false, "popular": false }
+  ],
+  "pizza-punjab": [
+    { "id": "pp-1", "name": "Margherita", "description": "San Marzano, fior di latte, basil", "price": 299, "veg": true, "spicy": false, "popular": true },
+    { "id": "pp-2", "name": "Farmhouse Supreme", "description": "Pepperoni, sweetcorn, capsicum, olives", "price": 449, "veg": false, "spicy": true, "popular": true },
+    { "id": "pp-3", "name": "Paneer Tikka Pizza", "description": "Spiced paneer, onion, mint drizzle", "price": 419, "veg": true, "spicy": true, "popular": true },
+    { "id": "pp-4", "name": "Chicken Tikka Pizza", "description": "Roast chicken tikka, red onion", "price": 429, "veg": false, "spicy": true, "popular": false },
+    { "id": "pp-5", "name": "Garlic Breadsticks", "description": "Six sticks, herb butter, parmesan", "price": 149, "veg": true, "spicy": false, "popular": false },
+    { "id": "pp-6", "name": "Cold Coco Lime", "description": "Fresh lime, soda, mint", "price": 99, "veg": true, "spicy": false, "popular": false }
+  ],
+  "burger-point": [
+    { "id": "bp-1", "name": "Double Cheese Smash Burger", "description": "Two patties, American cheese, house sauce", "price": 349, "veg": false, "spicy": false, "popular": true },
+    { "id": "bp-2", "name": "Crispy Chicken Zinger", "description": "Buttermilk fried, slaw, chipotle mayo", "price": 319, "veg": false, "spicy": true, "popular": true },
+    { "id": "bp-3", "name": "Paneer Makhani Burger", "description": "Grilled paneer, makhani mayo, lettuce", "price": 279, "veg": true, "spicy": false, "popular": true },
+    { "id": "bp-4", "name": "Crispy Paneer Tikka Burger", "description": "Bajji-style paneer, onion rings", "price": 289, "veg": true, "spicy": true, "popular": false },
+    { "id": "bp-5", "name": "Loaded Nachos", "description": "Cheese sauce, jalapeno, salsa", "price": 249, "veg": true, "spicy": true, "popular": false },
+    { "id": "bp-6", "name": "Oreo Milkshake", "description": "Thick shake, Oreo crumb", "price": 149, "veg": true, "spicy": false, "popular": false }
+  ],
+  "wok-this-way": [
+    { "id": "ww-1", "name": "Hakka Noodles", "description": "Wok-tossed, julienne vegetables, soy", "price": 260, "veg": true, "spicy": false, "popular": true },
+    { "id": "ww-2", "name": "Chicken Schezwan Noodles", "description": "Schezwan paste, chicken strips, spring onion", "price": 340, "veg": false, "spicy": true, "popular": true },
+    { "id": "ww-3", "name": "Chilli Garlic Prawns", "description": "Wok-fried prawns, garlic, bird's eye chilli", "price": 420, "veg": false, "spicy": true, "popular": false },
+    { "id": "ww-4", "name": "Crispy Corn Salt & Pepper", "description": "Golden fried corn, curry leaf", "price": 220, "veg": true, "spicy": true, "popular": false },
+    { "id": "ww-5", "name": "Steam Momos (6 pc)", "description": "Veg or chicken, red chutney", "price": 180, "veg": true, "spicy": true, "popular": true },
+    { "id": "ww-6", "name": "Lemon Iced Tea", "description": "Fresh brewed, lemon, ice", "price": 129, "veg": true, "spicy": false, "popular": false }
+  ],
+  "sweet-tooth": [
+    { "id": "st-1", "name": "Molten Chocolate Cake", "description": "Warm centre, dark chocolate shell", "price": 249, "veg": true, "spicy": false, "popular": true },
+    { "id": "st-2", "name": "Biscoff Cheesecake", "description": "Baked, cookie crumb base, caramel", "price": 289, "veg": true, "spicy": false, "popular": true },
+    { "id": "st-3", "name": "Tiramisu Jar", "description": "Mascarpone, espresso-soaked savoiardi", "price": 269, "veg": true, "spicy": false, "popular": false },
+    { "id": "st-4", "name": "Belgian Waffle", "description": "Crisp, berry compote, whipped cream", "price": 199, "veg": true, "spicy": false, "popular": false },
+    { "id": "st-5", "name": "Salted Caramel Brownie", "description": "Fudgy centre, flaked sea salt", "price": 229, "veg": true, "spicy": false, "popular": true },
+    { "id": "st-6", "name": "Cold Coffee Shake", "description": "Blended, whipped cream, chocolate", "price": 179, "veg": true, "spicy": false, "popular": false }
+  ],
+  "green-bowl": [
+    { "id": "gb-1", "name": "Quinoa Power Bowl", "description": "Quinoa, grilled paneer, avocado, lemon", "price": 349, "veg": true, "spicy": false, "popular": true },
+    { "id": "gb-2", "name": "Greek Salad", "description": "Tomato, cucumber, olives, feta", "price": 289, "veg": true, "spicy": false, "popular": false },
+    { "id": "gb-3", "name": "Smoothie Bowl", "description": "Acai, banana, granola, chia", "price": 319, "veg": true, "spicy": false, "popular": true },
+    { "id": "gb-4", "name": "Grilled Chicken Salad", "description": "Herb chicken, greens, mustard dressing", "price": 379, "veg": false, "spicy": false, "popular": false },
+    { "id": "gb-5", "name": "Sprouts Chaat", "description": "Sprouts, pomegranate, tamarind, sev", "price": 149, "veg": true, "spicy": true, "popular": false },
+    { "id": "gb-6", "name": "Green Detox Juice", "description": "Spinach, apple, ginger, lime", "price": 179, "veg": true, "spicy": false, "popular": false }
+  ],
+  "momo-magic": [
+    { "id": "mm-1", "name": "Steamed Veg Momos (8 pc)", "description": "Cabbage, carrot, spring onion", "price": 179, "veg": true, "spicy": true, "popular": true },
+    { "id": "mm-2", "name": "Steamed Chicken Momos (8 pc)", "description": "Minced chicken, ginger, garlic", "price": 229, "veg": false, "spicy": true, "popular": true },
+    { "id": "mm-3", "name": "Fried Chicken Momos (8 pc)", "description": "Crunchy exterior, dip", "price": 259, "veg": false, "spicy": true, "popular": true },
+    { "id": "mm-4", "name": "Tandoori Momos (8 pc)", "description": "Bhavangar, tandoori masala, onion", "price": 249, "veg": true, "spicy": true, "popular": false },
+    { "id": "mm-5", "name": "Chilli Garlic Dip", "description": "Extra dip", "price": 49, "veg": true, "spicy": true, "popular": false },
+    { "id": "mm-6", "name": "Masala Chai", "description": "Ginger, cardamom, boiled", "price": 69, "veg": true, "spicy": false, "popular": false }
+  ],
+  "rolls-republic": [
+    { "id": "rr-1", "name": "Chicken Tikka Roll", "description": "Paratha, onion, mint chutney", "price": 169, "veg": false, "spicy": true, "popular": true },
+    { "id": "rr-2", "name": "Paneer Kathi Roll", "description": "Cheese, peppers, mayo", "price": 149, "veg": true, "spicy": true, "popular": true },
+    { "id": "rr-3", "name": "Double Egg Roll", "description": "Two omelette layers, sauce", "price": 129, "veg": false, "spicy": true, "popular": false },
+    { "id": "rr-4", "name": "Aloo Frankie", "description": "Spiced potato, butter paratha", "price": 119, "veg": true, "spicy": true, "popular": false },
+    { "id": "rr-5", "name": "Spring Rolls (4 pc)", "description": "Crisp, sweet chilli dip", "price": 159, "veg": true, "spicy": false, "popular": false },
+    { "id": "rr-6", "name": "Masala Fries", "description": "Chatpata masala, peri peri", "price": 129, "veg": true, "spicy": true, "popular": false }
+  ],
+  "chai-and-co": [
+    { "id": "cc-1", "name": "Masala Chai", "description": "Assam, ginger, cardamom", "price": 79, "veg": true, "spicy": false, "popular": true },
+    { "id": "cc-2", "name": "Filter Kaapi", "description": "South Indian decoction, strong", "price": 69, "veg": true, "spicy": false, "popular": true },
+    { "id": "cc-3", "name": "Cold Coffee", "description": "Double shot, milk, ice", "price": 159, "veg": true, "spicy": false, "popular": true },
+    { "id": "cc-4", "name": "Fresh Lime Soda", "description": "Sweet or salted", "price": 99, "veg": true, "spicy": false, "popular": false },
+    { "id": "cc-5", "name": "Adrak Chai Latte", "description": "Ginger-infused espresso", "price": 179, "veg": true, "spicy": false, "popular": false },
+    { "id": "cc-6", "name": "Blueberry Smoothie", "description": "Yogurt, honey, crushed berries", "price": 189, "veg": true, "spicy": false, "popular": false }
+  ],
+  "thali-express": [
+    { "id": "te-1", "name": "Mini Veg Thali", "description": "Two sabzi, dal, rice, chapati, sweet", "price": 199, "veg": true, "spicy": true, "popular": true },
+    { "id": "te-2", "name": "Mini Non-Veg Thali", "description": "Chicken curry, dal, rice, chapati", "price": 269, "veg": false, "spicy": true, "popular": true },
+    { "id": "te-3", "name": "Ghee Roast", "description": "Potato, curry leaf, sesame", "price": 190, "veg": true, "spicy": true, "popular": false },
+    { "id": "te-4", "name": "Sambar", "description": "Pumpkin, drumstick, tamarind", "price": 110, "veg": true, "spicy": true, "popular": false },
+    { "id": "te-5", "name": "Curd Rice", "description": "Seasoned curd, pomegranate", "price": 129, "veg": true, "spicy": false, "popular": false },
+    { "id": "te-6", "name": "Filter Coffee", "description": "Decoction and boiled milk", "price": 59, "veg": true, "spicy": false, "popular": false }
+  ],
+  "pasta-amore": [
+    { "id": "pa-1", "name": "Penne Arrabbiata", "description": "Chilli, garlic, tomato, parmesan", "price": 329, "veg": true, "spicy": true, "popular": true },
+    { "id": "pa-2", "name": "Alfredo Fettuccine", "description": "Cream, garlic, cracked pepper", "price": 389, "veg": true, "spicy": false, "popular": true },
+    { "id": "pa-3", "name": "Chicken Ravioli", "description": "Stuffed pasta, white sauce, basil", "price": 429, "veg": false, "spicy": false, "popular": true },
+    { "id": "pa-4", "name": "Pesto Penne", "description": "Basil, pine nut, sun-dried tomato", "price": 359, "veg": true, "spicy": false, "popular": false },
+    { "id": "pa-5", "name": "Lasagna Bolognese", "description": "Layered, meat sauce, béchamel", "price": 449, "veg": false, "spicy": true, "popular": false },
+    { "id": "pa-6", "name": "Tiramisu Cup", "description": "Espresso, mascarpone, cocoa", "price": 219, "veg": true, "spicy": false, "popular": false }
+  ],
+  "samosa-street": [
+    { "id": "ss-1", "name": "Samosa (2 pc)", "description": "Potato and peas, tamarind chutney", "price": 69, "veg": true, "spicy": true, "popular": true },
+    { "id": "ss-2", "name": "Corn Chaat", "description": "Crisp, lemon, coriander", "price": 129, "veg": true, "spicy": true, "popular": true },
+    { "id": "ss-3", "name": "Pani Puri Shots (6 pc)", "description": "Spiced water, mint, pomegranate", "price": 119, "veg": true, "spicy": true, "popular": true },
+    { "id": "ss-4", "name": "Vada Pav", "description": "Buttery bun, dry chutney", "price": 89, "veg": true, "spicy": true, "popular": false },
+    { "id": "ss-5", "name": "Bhel Puri", "description": "Puffed rice, chutneys, sev", "price": 99, "veg": true, "spicy": true, "popular": false },
+    { "id": "ss-6", "name": "Kulfi Falooda", "description": "Cold, kulfi, rose syrup", "price": 139, "veg": true, "spicy": false, "popular": false }
+  ]
+}

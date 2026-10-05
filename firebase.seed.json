@@ -1,0 +1,6 @@
+{
+  "//": "Temporary config used only while seeding. Points at the permissive dev rules; `scripts/seed-with-temp-rules.sh` restores the strict rules immediately afterwards.",
+  "firestore": {
+    "rules": "firestore.seed.rules"
+  }
+}

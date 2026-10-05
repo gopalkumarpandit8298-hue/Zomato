@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "label": "All",
+      "imagePath": "categories/all.jpg",
+      "fallbackImageUrl": "/img/categories/all.jpg"
+    },
+    {
+      "id": "biryani",
+      "label": "Biryani",
+      "imagePath": "categories/biryani.jpg",
+      "fallbackImageUrl": "/img/categories/biryani.jpg"
+    },
+    {
+      "id": "pizza",
+      "label": "Pizza",
+      "imagePath": "categories/pizza.jpg",
+      "fallbackImageUrl": "/img/categories/pizza.jpg"
+    },
+    {
+      "id": "burger",
+      "label": "Burger",
+      "imagePath": "categories/burger.jpg",
+      "fallbackImageUrl": "/img/categories/burger.jpg"
+    },
+    {
+      "id": "momos",
+      "label": "Momos",
+      "imagePath": "categories/momos.jpg",
+      "fallbackImageUrl": "/img/categories/momos.jpg"
+    },
+    {
+      "id": "desserts",
+      "label": "Desserts",
+      "imagePath": "categories/desserts.jpg",
+      "fallbackImageUrl": "/img/categories/desserts.jpg"
+    },
+    {
+      "id": "healthy",
+      "label": "Healthy",
+      "imagePath": "categories/healthy.jpg",
+      "fallbackImageUrl": "/img/categories/healthy.jpg"
+    },
+    {
+      "id": "rolls",
+      "label": "Rolls",
+      "imagePath": "categories/rolls.jpg",
+      "fallbackImageUrl": "/img/categories/rolls.jpg"
+    },
+    {
+      "id": "beverages",
+      "label": "Beverages",
+      "imagePath": "categories/beverages.jpg",
+      "fallbackImageUrl": "/img/categories/beverages.jpg"
+    }
+  ]
+}
